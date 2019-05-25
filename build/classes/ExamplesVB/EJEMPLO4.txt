@@ -1,0 +1,20 @@
+Operaciones BEGIN{
+DIM a,b AS DOUBLE;
+DIM  a1,b1 AS DOUBLE;
+DOUBLE suma;
+DOUBLE resta;
+DOUBLE multiplicacion;
+DOUBLE division;
+PRINT (#Ingresa el primer numero#);
+a1=a;
+PRINT (#Ingresa el segundo numero#);
+b1=b;
+suma=a1+b1;
+PRINT (#La suma es#+suma);
+resta=a1-b1;
+PRINT (#La resta es#+resta);
+multiplicacion=a1*b1;
+PRINT (#La multiplicacion es#+multiplicacion);
+division=a1/b1;
+PRINT (#La division es#+division);
+END}
